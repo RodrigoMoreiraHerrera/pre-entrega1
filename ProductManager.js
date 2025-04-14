@@ -6,20 +6,7 @@ const pathProducts = path.join(__dirname, "products.json");
 class ProductManager {
   products = [];
 
-  constructor(
-    title = String,
-    description = String,
-    price = Number,
-    thumbnail = String,
-    code = String,
-    stock = Number
-  ) {
-    this.title = title;
-    this.description = description;
-    this.price = price;
-    this.thumbnail = thumbnail;
-    this.code = code;
-    this.stock = stock;
+  constructor() {
 
     if (fs.existsSync(pathProducts)) {
       try {
