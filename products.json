@@ -1,0 +1,41 @@
+
+[
+  {
+    "id": 1,
+    "title": "Smartphone X",
+    "description": "Un smartphone moderno con pantalla OLED y alta capacidad de almacenamiento.",
+    "price": 899,
+    "thumbnail": "https://example.com/images/smartphone_x.jpg",
+    "code": "SPX123",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "title": "Auriculares inalámbricos",
+    "description": "Auriculares con cancelación de ruido y excelente calidad de sonido.",
+    "price": 199,
+    "thumbnail": "https://example.com/images/auriculares.jpg",
+    "code": "HW456",
+    "stock": 150
+  },
+  {
+    "id": 3,
+    "title": "Laptop Pro",
+    "description": "Laptop de alto rendimiento ideal para profesionales y estudiantes.",
+    "price": 1499,
+    "thumbnail": "https://example.com/images/laptop_pro.jpg",
+    "code": "LT789",
+    "stock": 30
+  },
+  {
+    "id": 4,
+    "title": "Reloj Inteligente",
+    "description": "Un reloj inteligente con seguimiento de actividad y monitor de salud.",
+    "price": 299,
+    "thumbnail": "https://example.com/images/reloj_inteligente.jpg",
+    "code": "SW012",
+    "stock": 75
+  }
+]
+
+

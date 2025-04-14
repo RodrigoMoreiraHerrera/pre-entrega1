@@ -1,0 +1,63 @@
+Entrega N° 1 (Versión sin HTTP)
+Descripción
+Desarrollar una aplicación en Node.js que gestione productos y carritos mediante funciones y clases, sin utilizar HTTP ni Express. Toda la persistencia debe hacerse en archivos .json usando fs.
+
+Requisitos
+Clases:
+ProductManager para manejar productos
+
+
+CartManager para manejar carritos
+
+
+Funciones requeridas:
+ProductManager:
+getProducts(): listar todos los productos
+
+
+getProductById(pid): obtener producto por ID
+
+
+addProduct(obj): agregar un nuevo producto (ID autogenerado)
+
+
+updateProduct(pid, updateFields): actualizar campos de un producto (sin modificar el ID)
+
+
+deleteProduct(pid): eliminar producto por ID
+
+
+CartManager:
+createCart(): crear un nuevo carrito (ID autogenerado)
+
+
+getCartById(cid): listar productos de un carrito
+
+
+addProductToCart(cid, pid): agregar producto al carrito, incrementando cantidad si ya existe
+
+
+
+Persistencia
+products.json: almacena productos
+
+
+carts.json: almacena carritos
+
+
+Los archivos deben crearse automáticamente si no existen
+
+
+
+Ejecución
+El uso del programa debe realizarse desde un script principal (index.js, test.js, etc.) invocando las clases y métodos directamente, sin interfaces ni llamadas HTTP.
+
+📁 Estructura del proyecto
+tu-proyecto/
+├── ProductManager.js
+├── CartManager.js
+├── products.json       ← (vacío o se crea automáticamente)
+├── carts.json          ← (vacío o se crea automáticamente)
+└── index.js            ← archivo principal para probar
+
+
